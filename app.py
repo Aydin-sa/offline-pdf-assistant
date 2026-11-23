@@ -1,3 +1,10 @@
+"""
+Offline PDF Assistant — chat with your PDFs fully locally (Streamlit + LangChain + Ollama).
+
+Author: Aydin Sasanian
+Date:   November 2026
+"""
+
 import os
 import hashlib
 import tempfile
@@ -171,6 +178,8 @@ with st.sidebar:
             "4. The local LLM answers using only those chunks."
         )
     st.caption("Make sure Ollama is running: `ollama serve`")
+    st.divider()
+    st.caption("Built by **Aydin Sasanian** · November 2026")
 
 
 # ---------------- Upload ----------------

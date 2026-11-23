@@ -53,3 +53,8 @@ TOP_K = 6
 ## Tech stack
 
 Python · Streamlit · LangChain · Ollama · ChromaDB
+
+## Author
+
+**Aydin Sasanian** — November 2026
+GitHub: [@Aydin-sa](https://github.com/Aydin-sa)
